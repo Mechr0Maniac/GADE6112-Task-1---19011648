@@ -75,11 +75,11 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
 
         public override void Attack(Unit attack)
         {
-            if (attack is MeleeUnit)
-                Health -= ((MeleeUnit)attack).Damage;
-            else if (attack is RangedUnit)
+            if (attack is MeleeUnit matt)
+                Health -= matt.Damage;
+            else if (attack is RangedUnit ratt)
             {
-                Health -= (((RangedUnit)attack).Damage - ((RangedUnit)attack).Range);
+                Health -= ratt.Damage - ratt.Range;
             }
             if (Health <= 0)
             {
@@ -92,9 +92,9 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
             Unit closest = this;                  
             foreach (Unit u in units)
             {
-                if (u is MeleeUnit && u != this)
+                if (u is MeleeUnit mu && u != this)
                 {
-                    MeleeUnit otherMu = (MeleeUnit)u;
+                    MeleeUnit otherMu = mu;
                     int distance = Math.Abs(PosX - otherMu.PosX) + Math.Abs(PosY - otherMu.PosY);
                     if (distance < shortest)
                     {
@@ -102,9 +102,9 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
                         closest = otherMu;
                     }
                 }
-                else if (u is RangedUnit && u != this)
+                else if (u is RangedUnit ru && u != this)
                 {
-                    RangedUnit otherRu = (RangedUnit)u;
+                    RangedUnit otherRu = ru;
                     int distance = Math.Abs(PosX - otherRu.PosX) + Math.Abs(PosY - otherRu.PosY);
                     if (distance < shortest)
                     {
@@ -121,15 +121,15 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
             int distance;
             int enemyX = 0;
             int enemyY = 0;
-            if (enemy is MeleeUnit)
+            if (enemy is MeleeUnit nmeM)
             {
-                enemyX = ((MeleeUnit)enemy).PosX;
-                enemyY = ((MeleeUnit)enemy).PosY;
+                enemyX = nmeM.PosX;
+                enemyY = nmeM.PosY;
             }
-            else if (enemy is RangedUnit)
+            else if (enemy is RangedUnit nmeR)
             {
-                enemyX = ((RangedUnit)enemy).PosX;
-                enemyY = ((RangedUnit)enemy).PosY;
+                enemyX = nmeR.PosX;
+                enemyY = nmeR.PosY;
             }
             distance = Math.Abs(PosX - enemyX) + Math.Abs(PosY - enemyY);
             if (distance <= Range)
@@ -153,7 +153,6 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
                 case 3:
                     PosX--;
                     break;
-                default: break;
             }
         }
         public override void ShiNe()
