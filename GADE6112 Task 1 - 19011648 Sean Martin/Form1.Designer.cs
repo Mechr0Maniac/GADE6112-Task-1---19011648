@@ -76,7 +76,6 @@
             // 
             // tmrRounds
             // 
-            this.tmrRounds.Interval = 1000;
             this.tmrRounds.Tick += new System.EventHandler(this.TmrRounds_Tick);
             // 
             // txtOut
@@ -98,6 +97,7 @@
             this.Controls.Add(this.lblRound);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.gpbxMap.ResumeLayout(false);
             this.gpbxMap.PerformLayout();
             this.ResumeLayout(false);

@@ -18,11 +18,6 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            engine = new GameEngine(20, txtOut, gpbxMap);
-        }
-
         private void TmrRounds_Tick(object sender, EventArgs e)
         {
             lblRound.Text = "Round: " + engine.Round.ToString();
@@ -41,6 +36,11 @@ namespace GADE6112_Task_1___19011648_Sean_Martin
                 tmrRounds.Enabled = false;
                 btnControl.Text = "Play";
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            engine = new GameEngine(20, txtOut, gpbxMap);
         }
     }
 }

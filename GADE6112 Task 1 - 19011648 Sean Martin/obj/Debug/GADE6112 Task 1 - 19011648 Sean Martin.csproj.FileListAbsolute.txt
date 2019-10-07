@@ -8,3 +8,13 @@ D:\work\coding\GADE6112 Task 1 - 19011648 Sean Martin\GADE6112 Task 1 - 19011648
 D:\work\coding\GADE6112 Task 1 - 19011648 Sean Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.csproj.CoreCompileInputs.cache
 D:\work\coding\GADE6112 Task 1 - 19011648 Sean Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.exe
 D:\work\coding\GADE6112 Task 1 - 19011648 Sean Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.pdb
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\bin\Debug\GADE6112 Task 1 - 19011648 Sean Martin.exe.config
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\bin\Debug\GADE6112 Task 1 - 19011648 Sean Martin.exe
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\bin\Debug\GADE6112 Task 1 - 19011648 Sean Martin.pdb
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.csprojAssemblyReference.cache
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112_Task_1___19011648_Sean_Martin.Form1.resources
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112_Task_1___19011648_Sean_Martin.Properties.Resources.resources
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.csproj.GenerateResource.cache
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.csproj.CoreCompileInputs.cache
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.exe
+D:\work\coding\.github\GADE6112-Task-1---19011648-Sean-Martin\GADE6112 Task 1 - 19011648 Sean Martin\obj\Debug\GADE6112 Task 1 - 19011648 Sean Martin.pdb
